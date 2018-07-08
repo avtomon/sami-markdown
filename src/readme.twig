@@ -1,0 +1,19 @@
+{% block content %}
+
+{% block content_header %}
+    {{- project.config('title')|default('Read me')}}
+    {{- "\n===" }}
+{% endblock %}
+
+{% block toc %}
+    {%- block toc_title %}# Table of content{% endblock %}
+    {{ "\n"  }}
+    {{- toc(tree, 0)|raw}}
+{% endblock %}
+
+{% block package %}
+    {{- "---\nDocumentation\n---\n" }}
+    {{- render(namespaces, classes, interfaces)|raw }}
+{% endblock %}
+
+{% endblock %}

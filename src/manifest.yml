@@ -1,0 +1,4 @@
+name: markdown
+
+global:
+    'readme.twig':  'README.md'
