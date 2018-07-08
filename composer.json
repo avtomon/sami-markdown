@@ -1,0 +1,16 @@
+{
+    "name": "avtomon/sami-markdown",
+    "description": "Fork of https://git.giaever.org/joachimmg/sami-markdown",
+    "minimum-stability": "dev",
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "avtomon\\": "src/"
+        }
+    },
+    "require": {
+        "sami/sami": "*"
+    }
+}
