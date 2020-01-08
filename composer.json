@@ -9,4 +9,8 @@
     "require": {
         "sami/sami": "*"
     }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
 }
